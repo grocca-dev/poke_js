@@ -50,3 +50,21 @@ boutonPoke.addEventListener("click", async () => {
     }
 });
 
+const btnImg = document.querySelector("#btnImg");
+const showImg = document.querySelector("#showImg");
+const resetImg = document.querySelector("#closeImg");
+
+btnImg.addEventListener("click", () => {
+    showImg.style.display.block = "true"
+    showImg.src= "https://i.etsystatic.com/27534823/r/il/c25152/3860737838/il_794xN.3860737838_892h.jpg";
+    resetImg.style.display.block = "true";
+    resetImg.hidden = false;
+});
+
+resetImg.addEventListener("click", () => {
+    resetImg.style.display.block = "true"
+    showImg.src = "";
+    resetImg.hidden = true
+});
+
+

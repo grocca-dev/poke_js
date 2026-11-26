@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #cc0000 0%, #ff1c1c 50%, #222222 50%, #111111 100%);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#btnPokemon {
+    background-color: #ffcb05; /* Jaune Pokémon */
+    color: #2a75bb; /* Bleu Pokémon */
+    border: 3px solid #3c5aa6;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+    margin-top: 20px;
+}
+
+#btnPokemon:hover {
+    background-color: #ffdf33;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+#btnImg {
+    background-color: #ffcb05; /* Jaune Pokémon */
+    color: #2a75bb; /* Bleu Pokémon */
+    border: 3px solid #3c5aa6;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+    margin-top: 20px;
+}
+
+#btnImg:hover {
+    background-color: #ffdf33;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+#resultatPoke {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+#showImg {
+    max-width: 20%;
+    margin: 30px;
+    transition: all
+}
+
+#closeImg {
+    background-color: #ffcb05; /* Jaune Pokémon */
+    color: #2a75bb; /* Bleu Pokémon */
+    border: 3px solid #3c5aa6;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+    margin-top: 20px;
+}
+
+#closeImg:hover {
+    background-color: #ffdf33;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+}
